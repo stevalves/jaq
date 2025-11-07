@@ -20,8 +20,8 @@ type FormValues = {
 };
 
 const DEFAULT_SETTINGS: ApiSettings = {
-  number: 5,
-  length: 4,
+  number: 10,
+  length: 6,
   lang: "pt-br",
 };
 

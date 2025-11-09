@@ -3,9 +3,9 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.example.palavrasdia",
+      "package_name": "app.vercel.jaq_rosy.twa",
       "sha256_cert_fingerprints": [
-        "00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+        "C5:64:B6:3E:AA:A2:C8:EE:09:03:40:21:91:D1:84:0D:B9:D8:85:A5:FA:37:3A:74:7F:C2:52:26:9F:1C:65:BA"
       ]
     }
   }

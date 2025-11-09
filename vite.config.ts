@@ -5,10 +5,7 @@ import { VitePWA } from "vite-plugin-pwa";
 import type { ManifestOptions } from "vite-plugin-pwa";
 
 const manifest = JSON.parse(
-  readFileSync(
-    new URL("./public/manifest.webmanifest", import.meta.url),
-    "utf-8"
-  )
+  readFileSync(new URL("./public/manifest.json", import.meta.url), "utf-8")
 ) as ManifestOptions;
 
 // https://vite.dev/config/

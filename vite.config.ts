@@ -14,6 +14,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "autoUpdate",
+      manifestFilename: "manifest.json",
       includeAssets: [
         "icons/word-192.png",
         "icons/word-512.png",
